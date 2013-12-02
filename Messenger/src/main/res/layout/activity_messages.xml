@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <fragment
+        android:id="@+id/fragment_messages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="lessons.messenger.fragment.MessagesFragment"
+        android:smoothScrollbar="true"
+        tools:layout="@layout/messages_list_entry_sent" />
+    <fragment
+        android:id="@+id/fragment_message_writer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="lessons.messenger.fragment.MessageWriterFragment"
+        tools:layout="@layout/fragment_message_writer" />
+</LinearLayout>

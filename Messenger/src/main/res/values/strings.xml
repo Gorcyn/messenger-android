@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application">Messagerie</string>
+    <!-- Login -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="connect">Connexion</string>
+    <string name="email_error">Adresse email invalide</string>
+    <string name="password_required">Mot de passe requis</string>
+    <string name="login_error">Mauvais email/mot de passe</string>
+    <!-- Contacts -->
+    <string name="activity_contacts">Contacts</string>
+    <string name="messages_none">Aucun message</string>
+    <!-- Messages -->
+    <string name="activity_messages">Messages</string>
+    <string name="send">Envoyer</string>
+    <string name="message_not_sent">Votre message n\'a pu être envoyé</string>
+</resources>
